@@ -907,7 +907,3 @@
 			}
 
 		}
-
-		body.is-ie #wrapper {
-			height: 100%;
-		}

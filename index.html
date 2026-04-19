@@ -29,13 +29,10 @@
 
         gtag('config', 'G-L9L7P8KYEV');
     </script>
-    <!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap">
     <link rel="stylesheet" href="assets/css/main.css" />
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
@@ -61,16 +58,6 @@
                 <p>Dartmouth '15 | WRTI<br />Program Director, Radio Host, Music Curator, Writer
                 </p>
             </header>
-            <!-- Removing podcast for now while on hiatus
-            <hr />
-            <div class="podcast">
-                <div class="podcast-item">
-                    <a href="https://open.spotify.com/show/60HOXjP6mEDfQtKtiuaXUH?si=6be7c0e8e5604bfa"
-                        target="_blank"><img src="images/seven-four.jpeg" alt="7/4 Podcast" /></a>
-                    <span>A weekly selection of new music worth getting to know<br><br>Released (almost) every Thursday
-                        on Spotify</span>
-                </div>
-            </div> -->
             <hr />
             <footer>
                 <ul class="icons">
@@ -93,13 +80,8 @@
             </ul>
         </footer>
     </div>
-    <!-- Scripts -->
-    <!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
     <script>
-        if ('addEventListener' in window) {
-            window.addEventListener('load', function () { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-            document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-        }
+        window.addEventListener('load', function () { document.body.classList.remove('is-loading'); });
     </script>
 </body>
 
